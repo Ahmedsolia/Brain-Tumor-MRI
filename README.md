@@ -49,7 +49,7 @@ It is recommended to use a virtual environment.
 pip install -r requirements.txt
 ```
 
-3. Launch the application:
+2. Launch the application:
 
 ```
 streamlit run app.py
