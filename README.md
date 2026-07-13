@@ -6,6 +6,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
 
 An end-to-end, production-ready Machine Learning system for classifying Brain Tumors from MRI scans. This project implements a **Hybrid Feature Extraction** approach combining Deep Learning and Texture Analysis, wrapped in an interactive web application with a built-in **Active Learning Feedback Loop**.
+
 You can Try the live demo through : https://7gknpuwyuykgbyvvqw6r8h.streamlit.app/
 ## ✨ Key Features
 
