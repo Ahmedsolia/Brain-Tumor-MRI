@@ -34,27 +34,10 @@ Final_project/
 ├── requirements.txt            # Python dependencies
 ├── feedback_log.csv            # Auto-generated database for expert feedback
 └── feedback_images/            # Auto-generated directory for storing newly labeled MRI scans
-⚙️ How to Run Locally
-
-Clone the repository:
+text'''
+### ⚙️ How to Run Locally
+1. Clone the repository:
 
 Bash
 git clone [https://github.com/YourUsername/Brain-Tumor-MRI-Classifier.git](https://github.com/YourUsername/Brain-Tumor-MRI-Classifier.git)
 cd Brain-Tumor-MRI-Classifier
-Install dependencies:
-It is recommended to use a virtual environment.
-
-Bash
-pip install -r requirements.txt
-Launch the application:
-
-Bash
-streamlit run app.py
-Open your browser and navigate to http://localhost:8501.
-
-📈 Future Improvements
-Continual Learning: Utilize the newly collected images from the feedback_images directory to periodically retrain the SVM and PCA components.
-
-Model Ensembling: Integrate additional architectures (e.g., EfficientNet, VGG16) and utilize a soft-voting classifier to boost confidence scores on edge cases.
-
-👨‍💻 Developed by: Ahmed Abdelkader
