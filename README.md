@@ -54,9 +54,9 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-4.📈 Future Improvements
-Continual Learning: Utilize the newly collected images from the feedback_images directory to periodically retrain the SVM and PCA components.
+## 📈 Future Improvements
+* **Continual Learning: Utilize the newly collected images from the feedback_images directory to periodically retrain the SVM and PCA components.
 
-Model Ensembling: Integrate additional architectures (e.g., EfficientNet, VGG16) and utilize a soft-voting classifier to boost confidence scores on edge cases.
+* **Model Ensembling: Integrate additional architectures (e.g., EfficientNet, VGG16) and utilize a soft-voting classifier to boost confidence scores on edge cases.
 
 👨‍💻 Developed by: Ahmed Abdelkader
